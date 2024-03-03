@@ -1,0 +1,93 @@
+.login-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background-color: #f1f1f1; */
+  opacity: 0.7;
+  
+  box-shadow:#e12454;
+  
+}
+#loginimg{
+  width: 450px;
+  height: 600px;
+  float: right;
+  opacity: 3;
+}
+
+.login-heading {
+  text-align: center;
+  padding-top: 15%;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  width: 450px;
+  height: 600px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(172, 59, 59, 0.2);
+  
+}
+
+.form-group {
+  margin-bottom: 20px;
+  padding-top: 8%;
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  width: 80%;
+  padding: 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #e12454;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+#log-btn{
+  padding-top: 5%;
+  padding-left: 14%;
+  /* width: 100%;
+  height: 10%; */
+}
+.login-button:hover {
+  transform:scale(1.1);
+  z-index: 1;
+  background-color: aqua;
+}
+
+#App1 video{
+  position: absolute;
+  z-index: -1;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+#sign-to{
+  color: #e12454;
+}
+.login-qoute{
+  text-align: center;
+  font-style: italic;
+}

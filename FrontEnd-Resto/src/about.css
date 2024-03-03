@@ -1,0 +1,37 @@
+.c1{
+  min-height: 550px;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 620px;
+}
+
+.c2{
+  min-height: 620px;
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+}
+
+.c3{
+  flex: 1;
+  text-align: left;
+}
+.c4{
+  margin-bottom: 8px;
+  max-width: 560px;
+}
+.c5{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c6{
+  margin-bottom: -300px;
+  margin-right: -186px;
+  z-index: 10;
+}
